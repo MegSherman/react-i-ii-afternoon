@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+}
+
+.header {
+  width: 100vw;
+  height: 14vh;
+  background-color: #2CAFF5;
+  display: flex;
+  align-items: center;
+}
+
+.header > h3 {
+  margin-left: 5vw;
+}
+
+.background {
+  height: 86vh;
+  width: 100vw;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.template-box {
+  height: 50vh;
+  width: 80vw;
+  background-color: white;
+}
+
+.right-justify {
+  text-align: right;
+  margin-right: 7vw;
+}
+
+.unbolded {
+  font-weight: normal
+}
