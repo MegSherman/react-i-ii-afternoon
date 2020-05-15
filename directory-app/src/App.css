@@ -19,8 +19,15 @@
   width: 100vw;
   background: black;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.template-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5vw;
 }
 
 .template-box {
@@ -29,11 +36,43 @@
   background-color: white;
 }
 
+.space-break {
+  margin-top: 3vh;
+}
+
 .right-justify {
   text-align: right;
-  margin-right: 7vw;
+  margin-right: 3vw;
 }
 
 .unbolded {
   font-weight: normal
+}
+
+.underline {
+  text-decoration: underline;
+  text-decoration-color: #2CAFF5;
+}
+
+.button-sides {
+  border: none;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+
+.button-left {
+  margin-right: 22vw;
+}
+
+.button-right {
+  margin-left: 22vw;
+}
+.center-buttons {
+  border-radius: 20px;
+  background-color: #2CAFF5;
+  border: none;
+  color: white;
+  font-weight: bold;
+  margin: 5px;
 }
